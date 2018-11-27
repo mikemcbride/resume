@@ -1,0 +1,47 @@
+---
+---
+
+$near-white: #f9f9f9;
+$very-light-gray: #d7d7d7;
+$light-gray: #aaa;
+$gray: #666;
+$dark-gray: #444;
+$very-dark-gray: #222;
+
+$blue: #6085ff;
+$link-color: #067df7;
+
+/**
+* Set base font size for rem units
+*/
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/**
+* Reset margins on these things
+*/
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/**
+* Paragraphs, ul, ol
+*/
+ul, p, ol {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.skill-container {
+  height: 4px;
+  border-radius: 1px;
+}

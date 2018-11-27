@@ -1,0 +1,33 @@
+<header class="mb4 flex flex-column flex-row-l w-100 items-start blue">
+	<section class="w-100 w-60-l pl3 pv2 bn bl-l bt-l bb-l bw2-l mb3 mb0-l self-stretch flex justify-center flex-column">
+		<h1 class="f1 mt0 mb1 lh-solid">
+			<div>Mike McBride</div>
+		</h1>
+		<h3 class="fw4 f4 mv0">Web Developer</h3>
+	</section>
+	
+	<aside class="w-100 w-40-l">
+		<section class="bg-blue white pa2 pl3 w-100">
+			<ul class="list mb0 pl0">
+				<li class="flex items-center">
+					<span class="h2 w2 dib mr2">
+	        	{% include _icons/email.html %}
+	      	</span>
+					<a href="mailto:{{ site.email }}" class="white underline-hover">{{ site.email }}</a>
+				</li>
+				<li class="flex items-center">
+					<span class="h2 w2 dib mr2 flex items-center justify-center">
+	        	{% include _icons/link.html %}
+	      	</span>
+					<a href="{{ site.website }}" target="_blank" class="white underline-hover">{{ site.website }}</a>
+				</li>
+				<li class="flex items-center">
+					<span class="h2 w2 dib mr2 flex items-center justify-center">
+	        	{% include _icons/location.html %}
+	      	</span>
+					St. Louis, MO
+				</li>
+			</ul>
+		</section>
+	</aside>
+</header>
